@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet GIDSignInButton *signInButton;
 
 @end
 
@@ -17,8 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    
+    [[GIDSignIn sharedInstance] signInSilently];
 }
 
+- (IBAction)signOut:(id)sender {
+    [[GIDSignIn sharedInstance] signOut];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

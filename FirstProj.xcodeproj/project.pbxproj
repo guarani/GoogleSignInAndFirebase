@@ -61,6 +61,7 @@
 		222AE7021FEA05E50036350C /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		222AE7071FEA06160036350C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		222AE7091FEA061C0036350C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		222AE70B1FEA07470036350C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 				222AE6B71FEA04B90036350C /* AppDelegate.m */,
 				222AE6B91FEA04B90036350C /* ViewController.h */,
 				222AE6BA1FEA04B90036350C /* ViewController.m */,
+				222AE70B1FEA07470036350C /* GoogleService-Info.plist */,
 				222AE6BC1FEA04B90036350C /* Main.storyboard */,
 				222AE6BF1FEA04B90036350C /* Assets.xcassets */,
 				222AE6C11FEA04B90036350C /* LaunchScreen.storyboard */,
