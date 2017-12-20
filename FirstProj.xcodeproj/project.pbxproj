@@ -15,6 +15,11 @@
 		222AE6C61FEA04B90036350C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AE6C51FEA04B90036350C /* main.m */; };
 		222AE6D01FEA04B90036350C /* FirstProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AE6CF1FEA04B90036350C /* FirstProjTests.m */; };
 		222AE6DB1FEA04B90036350C /* FirstProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AE6DA1FEA04B90036350C /* FirstProjUITests.m */; };
+		222AE7031FEA05F10036350C /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 222AE7001FEA05E40036350C /* GoogleSignIn.bundle */; };
+		222AE7041FEA05F30036350C /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AE7011FEA05E50036350C /* GoogleSignIn.framework */; };
+		222AE7051FEA05F50036350C /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AE7021FEA05E50036350C /* GoogleSignInDependencies.framework */; };
+		222AE7081FEA06160036350C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AE7071FEA06160036350C /* SafariServices.framework */; };
+		222AE70A1FEA061C0036350C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AE7091FEA061C0036350C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		222AE6D61FEA04B90036350C /* FirstProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222AE6DA1FEA04B90036350C /* FirstProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstProjUITests.m; sourceTree = "<group>"; };
 		222AE6DC1FEA04B90036350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222AE7001FEA05E40036350C /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		222AE7011FEA05E50036350C /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		222AE7021FEA05E50036350C /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		222AE7071FEA06160036350C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		222AE7091FEA061C0036350C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AE70A1FEA061C0036350C /* SystemConfiguration.framework in Frameworks */,
+				222AE7081FEA06160036350C /* SafariServices.framework in Frameworks */,
+				222AE7051FEA05F50036350C /* GoogleSignInDependencies.framework in Frameworks */,
+				222AE7041FEA05F30036350C /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,7 @@
 				222AE6CE1FEA04B90036350C /* FirstProjTests */,
 				222AE6D91FEA04B90036350C /* FirstProjUITests */,
 				222AE6B41FEA04B90036350C /* Products */,
+				222AE7061FEA06160036350C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +116,7 @@
 		222AE6B51FEA04B90036350C /* FirstProj */ = {
 			isa = PBXGroup;
 			children = (
+				222AE6FF1FEA05DB0036350C /* Libs */,
 				222AE6B61FEA04B90036350C /* AppDelegate.h */,
 				222AE6B71FEA04B90036350C /* AppDelegate.m */,
 				222AE6B91FEA04B90036350C /* ViewController.h */,
@@ -130,6 +146,25 @@
 				222AE6DC1FEA04B90036350C /* Info.plist */,
 			);
 			path = FirstProjUITests;
+			sourceTree = "<group>";
+		};
+		222AE6FF1FEA05DB0036350C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				222AE7001FEA05E40036350C /* GoogleSignIn.bundle */,
+				222AE7011FEA05E50036350C /* GoogleSignIn.framework */,
+				222AE7021FEA05E50036350C /* GoogleSignInDependencies.framework */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		222AE7061FEA06160036350C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222AE7091FEA061C0036350C /* SystemConfiguration.framework */,
+				222AE7071FEA06160036350C /* SafariServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AE7031FEA05F10036350C /* GoogleSignIn.bundle in Resources */,
 				222AE6C31FEA04B90036350C /* LaunchScreen.storyboard in Resources */,
 				222AE6C01FEA04B90036350C /* Assets.xcassets in Resources */,
 				222AE6BE1FEA04B90036350C /* Main.storyboard in Resources */,
@@ -431,8 +467,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirstProj/Libs",
+				);
 				INFOPLIST_FILE = FirstProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.schrottky.FirstProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,8 +488,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirstProj/Libs",
+				);
 				INFOPLIST_FILE = FirstProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.schrottky.FirstProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
