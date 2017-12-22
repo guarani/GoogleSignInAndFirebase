@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>819867495266-ao3pd3plsd4cv79krn0rj3io75757bhi.apps.googleusercontent.com</string>
+	<string>78042098741-dlen6vobdqqh2s83ef5d09bi1lpomdhu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.819867495266-ao3pd3plsd4cv79krn0rj3io75757bhi</string>
+	<string>com.googleusercontent.apps.78042098741-dlen6vobdqqh2s83ef5d09bi1lpomdhu</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.firstproj</string>
+	<string>com.schrottky.FirstProj</string>
 	<key>PROJECT_ID</key>
-	<string>firebase-innov8dev</string>
+	<string>innov8-f806b</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:819867495266:ios:9c24e65437b71c3c</string>
+	<string>1:78042098741:ios:9c24e65437b71c3c</string>
 </dict>
 </plist>

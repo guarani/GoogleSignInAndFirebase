@@ -22,7 +22,7 @@
 //    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
 //
     [GIDSignIn sharedInstance].delegate = self;
-    [GIDSignIn sharedInstance].clientID = @"819867495266-ao3pd3plsd4cv79krn0rj3io75757bhi.apps.googleusercontent.com";
+    [GIDSignIn sharedInstance].clientID = @"78042098741-dlen6vobdqqh2s83ef5d09bi1lpomdhu.apps.googleusercontent.com";
     
     return YES;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Firebase.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet GIDSignInButton *signInButton;
